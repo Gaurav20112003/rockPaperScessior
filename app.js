@@ -7,7 +7,7 @@ const choices = document.querySelectorAll(".choice");
 const msg = document.querySelector("#msg");
 const genCompChoice = () =>{
     //rock,paper,scissors
-    const options = ["Rock","Paper","Scissors"];
+    const options = ["Paper","Rock","Scissors"];
     const randIdx = Math.floor(Math.random()*3);
     return options[randIdx];
 
